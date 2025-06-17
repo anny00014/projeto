@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 LOGIN</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: blueviolet;
+            text-align: center;
+        }
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: indigo;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>LOGIN</h1>
+
+    <div class="div1">
+        <form>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" placeholder="Digite seu e-mail"><br>
+
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha" placeholder="Digite sua senha"><br>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
